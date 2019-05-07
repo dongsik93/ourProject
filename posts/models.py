@@ -4,4 +4,4 @@ from django.db import models
 class Post(models.Model):
     title_JUNGBONG = models.TextField()
     content_dongsik = models.CharField(max_length=100)
-    bong = models.CharField(max_length=100)
+    sang = models.CharField(max_length=50)
